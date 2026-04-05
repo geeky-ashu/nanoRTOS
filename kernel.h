@@ -20,7 +20,7 @@
 #define MAX_QUEUES     4   // maximum number of message queues
 #define MAX_QUEUE_LEN  8   // maximum items per queue
 #define MAX_EVENTS     4   // maximum number of event flag groups
-#define WDT_DEFAULT    5000u // default watchdog period in ms (0 = disabled for that task)
+#define WDT_DEFAULT    5000u // default watchdog period in ms (0 = disabled for that specific task)
 
 // Task states
 #define STATE_INVALID    0 // no task
