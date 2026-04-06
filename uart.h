@@ -21,7 +21,7 @@ void putcUart0(char value);
 void putsUart0(char *string);
 
 // Receive one character, yielding the CPU while the RX FIFO is empty.
-// Calls vTaskCheckin() so the shell watchdog counter stays reset during input.
+// Calls vTaskCheckin() - so the shell watchdog counter stays reset during input.
 char getcUart0(void);
 
 // Blocking drain of the TX circular buffer  -  bypasses the interrupt and
