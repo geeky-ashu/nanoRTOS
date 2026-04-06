@@ -179,6 +179,7 @@ void systickIsr(void);
 void pendSvIsr(void);
 void svCallIsr(void);
 void hardFaultIsr(void);
+
 /*------------------------------------------------------------------------------*/
 
 #endif /* KERNEL_H */
