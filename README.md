@@ -213,4 +213,6 @@ Each task gets a 256-word (1 KB) stack. All sizing limits are in `kernel.h`:
 
 Note: `putcUart0` must not be called from within a critical section while the TX buffer is full.
 
+<!-- v1.0 -->
+
 ## License
