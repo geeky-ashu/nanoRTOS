@@ -211,3 +211,4 @@ Each task gets a 256-word (1 KB) stack. All sizing limits are in `kernel.h`:
 | `MAX_EVENTS` | 4 |
 | `WDT_DEFAULT` | 5000 ms |
 
+## License
