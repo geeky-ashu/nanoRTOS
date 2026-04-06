@@ -34,7 +34,7 @@ uint32_t cpuStatsTimer = 10000;    // countdown to reset per-task time accumulat
 uint64_t avgTaskTime[MAX_TASKS];   // EMA of per-task CPU% (units: hundredths of a percent)
 
 uint8_t taskCurrent = 0;           // index of currently running task
-uint8_t taskCount   = 0;           // total registered tasks
+uint8_t taskCount   = 0;           // total no of registered tasks
 
 uint32_t uptimeTicks = 0;          // total 1ms ticks since boot
 bool stackOverflow   = false;      // set when sentinel corruption detected
