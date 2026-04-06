@@ -133,8 +133,7 @@ void vTaskStartScheduler(void)
 bool xTaskCreate(task_fn_t fn, char name[], int priority)
 {
     __asm("  SVC  #01 ");
-    bool ok = true;
-    return ok;
+    return getR0() != 0;
 }
 
 void vTaskDelete(task_fn_t fn)
