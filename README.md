@@ -211,4 +211,6 @@ Each task gets a 256-word (1 KB) stack. All sizing limits are in `kernel.h`:
 | `MAX_EVENTS` | 4 |
 | `WDT_DEFAULT` | 5000 ms |
 
+Note: `putcUart0` must not be called from within a critical section while the TX buffer is full.
+
 ## License
