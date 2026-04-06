@@ -9,7 +9,7 @@ runtime deadlock detection  -  all in roughly 1,000 lines of C with zero library
 single vendor header.
 
 Every mechanism is visible in the source. There is no generated code, no middleware, no HAL abstraction.
-The context switch is 20 lines of C calling one assembly instruction. If something breaks, you can read
+The context switch is ~20 lines of C calling one assembly instruction. If something breaks, you can read
 exactly why.
 
 ---
