@@ -1,5 +1,12 @@
 # nanoRTOS
 
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![ARM Cortex-M4F](https://img.shields.io/badge/ARM-Cortex--M4F-0091BD?style=flat-square&logo=arm&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-TM4C123GH6PM-E02020?style=flat-square)
+![RTOS](https://img.shields.io/badge/RTOS-preemptive%2Fcooperative-FF6600?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)
+![Lines of C](https://img.shields.io/badge/kernel-~1000%20lines%20of%20C-555555?style=flat-square)
+
 A preemptive/cooperative real-time operating system kernel written from scratch for the ARM Cortex-M4F,
 targeting the TI TM4C123GH6PM microcontroller.
 
@@ -211,8 +218,10 @@ Each task gets a 256-word (1 KB) stack. All sizing limits are in `kernel.h`:
 | `MAX_EVENTS` | 4 |
 | `WDT_DEFAULT` | 5000 ms |
 
-Note: `putcUart0` must not be called from within a critical section while the TX buffer is full.
+> **Note:** `putcUart0` must not be called from within a critical section while the TX buffer is full.
 
-<!-- v1.0 -->
+---
 
 ## License
+
+MIT
